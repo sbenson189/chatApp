@@ -1,0 +1,87 @@
+.loginFormContainer {
+    top: 0;
+    width: 100vw;
+    height: 300vh;
+    background-color: rgba(202, 202, 202, 0.788);
+    position: absolute;
+}
+
+.loginForm {
+    position: absolute;
+    top: 0;
+    color: rgb(162, 184, 201);
+    text-align: center;
+    border: solid rgba(169, 169, 169, 0.356) 1px;
+    border-radius: 5px;
+    width: 450px;
+    margin-top: 5rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.288);
+    display: flex;
+    display: -ms-flex;
+    align-items: center;
+    align-content: flex-start;
+    align-self: flex-start;
+    justify-content: flex-start;
+    justify-self: flex-start;
+    justify-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 5rem;
+    padding: 10px;
+    background-color: rgb(37, 36, 36);
+
+    input {
+        color:rgb(1, 168, 190);
+        padding: 15px;
+        width: 300px;
+        margin: 6px;
+        border: 0 solid black;
+        border-bottom: solid rgb(136, 153, 166) 1px;
+        border-radius: 2px;
+        background-color: rgba(122, 122, 150, 0.205);
+        display: flex;
+        display: -ms-flex;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .passwordInput {
+        margin-bottom: 10px;
+    }
+
+    ::placeholder {
+        color: rgb(162, 184, 201);
+    }
+
+    button {
+        color:whitesmoke;
+        background-color: rgba(0, 0, 0, 0.582);
+        padding: 6px;
+        border-radius: 4px;
+        border: solid 2px rgba(0, 0, 0, 0.315);
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.315);
+        width: 100px;
+        font-weight: bold;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .LoginModalLoginButton {
+        margin-top: 10px;
+    }
+
+    .LoginModalCloseButton {
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        color: rgb(199, 192, 192);
+        font-size: 2rem;
+    }
+}

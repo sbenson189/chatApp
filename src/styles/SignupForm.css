@@ -1,0 +1,118 @@
+.signUpFormContainer {
+  top: 0;
+  width: 100vw;
+  height: 300vh;
+  background-color: rgba(202, 202, 202, 0.788);
+  position: absolute;
+}
+
+.signupForm {
+  position: absolute;
+  top: 0;
+  color: #a2b8c9;
+  text-align: center;
+  border: solid rgba(169, 169, 169, 0.356) 1px;
+  border-radius: 5px;
+  width: 450px;
+  margin-top: 5rem;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.288);
+          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.288);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -ms-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  justify-self: flex-start;
+  justify-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-left: 5rem;
+  padding: 10px;
+  background-color: #252424;
+}
+
+.signupForm input {
+  color: #01a8be;
+  padding: 15px;
+  width: 300px;
+  margin: 6px;
+  border: 0 solid black;
+  border-bottom: solid #8899a6 1px;
+  border-radius: 2px;
+  background-color: rgba(122, 122, 150, 0.205);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -ms-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.signupForm ::-webkit-input-placeholder {
+  color: #a2b8c9;
+}
+
+.signupForm :-ms-input-placeholder {
+  color: #a2b8c9;
+}
+
+.signupForm ::-ms-input-placeholder {
+  color: #a2b8c9;
+}
+
+.signupForm ::placeholder {
+  color: #a2b8c9;
+}
+
+.signupForm button {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.582);
+  padding: 6px;
+  border-radius: 4px;
+  border: solid 2px rgba(0, 0, 0, 0.315);
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.315);
+          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.315);
+  width: 100px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.signupForm h3 {
+  color: #c7c0c0;
+  font-size: 2rem;
+}
+
+.signupForm .signUpModalCloseButton {
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=SignupForm.css.map */

@@ -1,0 +1,57 @@
+body {
+    font-size: 15px;
+    margin: 0;
+
+    .chatMessagesContent {
+        margin: 3px;
+        height: 50px; 
+    }
+
+    .messageListContainer {
+        border-top: solid black 1px;
+        border-bottom: solid black 1px;
+        border-left: solid black 4px;
+        border-right: solid black 4px;
+        padding: 5px;
+        margin: 0px;
+        overflow: auto;
+        height: 500px;
+    }
+
+    .messagesContainer {
+        background-color: rgba(255, 255, 255, 0.685);
+        border-radius: 5px;
+    }
+
+    .chatMessagesDate {
+        font-size: 10px;
+    }
+
+    .messageUsername {
+        font-size: 16px;
+        font-weight: bolder;
+        color: rgb(0, 4, 255)
+    }
+
+    .messageText {
+        font-weight: 400;
+    }
+    
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 1px 1px 6px rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 10px;
+}
+
+ :hover::-webkit-scrollbar-thumb{
+    background-color: rgb(246, 245, 250);
+}

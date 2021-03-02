@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,KAAK,EAAE,UAAU;EACjB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;EACf,gBAAgB,EAAE,oBAAoB;EACtC,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,cAAc,AAAA,MAAM,CAAC;EACjB,gBAAgB,EAAE,OAAe;EACjC,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "SignOutButton.scss"
+    ],
+    "names": [],
+    "file": "SignOutButton.css"
+}

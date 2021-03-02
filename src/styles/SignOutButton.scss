@@ -1,0 +1,15 @@
+.signOutButton {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.877);
+    border: 0;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+}
+
+.signOutButton:hover {
+    background-color: rgb(66, 63, 63);
+    cursor: pointer;
+}
