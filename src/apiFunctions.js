@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = 'https://chat--app--api.herokuapp.com' || 'http://localhost:80'
+const baseUrl = 'http://localhost:5000' || 'https://chat--app--api.herokuapp.com'
 const getUserInfoEndpoint = '/user/'
 const getUsersEndpoint = '/users'
 const getPostsEndpoint = '/posts'
